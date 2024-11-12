@@ -105,7 +105,7 @@ spaceRouter.get('/all', userMiddleware, async (req, res) => {
             id: s.id,
             name: s.name,
             thumbnail: s.thumbnail,
-            dimensions: `${s.width}x${s.he}`
+            dimensions: `${s.width}x${s.height}`
         })
         )
     })
